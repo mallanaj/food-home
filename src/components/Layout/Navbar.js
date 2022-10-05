@@ -155,7 +155,7 @@ const Navbar = () => {
 						))}
 					</Box>
 
-					<Box sx={{ flexGrow: 0 }}>
+					<Box sx={{ flexGrow: 0, position: 'relative', zIndex: 99 }}>
 						<Tooltip title="Open settings">
 							<IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
 								<StyledBadge
@@ -163,11 +163,7 @@ const Navbar = () => {
 									anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
 									variant="dot"
 								>
-									<Avatar
-										alt="Remy Sharp"
-										src={avatarImg}
-										style={{ position: 'relative', zIndex: 99 }}
-									/>
+									<Avatar alt="Remy Sharp" src={avatarImg} />
 								</StyledBadge>
 							</IconButton>
 						</Tooltip>
