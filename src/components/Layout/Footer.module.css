@@ -1,0 +1,16 @@
+/* .relative {
+	position: relative;
+} */
+
+.absolute1 {
+	position: relative;
+	left: -150px;
+	top: 0;
+	z-index: 1;
+}
+.absolute2 {
+	/* left: 30%;
+	top: 50%; */
+	position: relative;
+	z-index: 2;
+}
